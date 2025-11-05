@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Reverse String</title>    
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 Invertidor de Texto</h1>
+        
+        <div class="input-group">
+            <label for="inputText">Ingresa tu texto:</label>
+            <textarea id="inputText" placeholder="Escribe aquí el texto que deseas invertir..."></textarea>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-invert" onclick="invertirTexto()">Invertir Texto</button>
+            <button class="btn-clear" onclick="limpiar()">Limpiar</button>
+        </div>
+
+        <div class="input-group">
+            <label>Resultado:</label>
+            <div id="resultado" class="result empty">El texto invertido aparecerá aquí...</div>
+        </div>
+
+        <div class="info">
+            💡 Este invertidor revierte el orden de todos los caracteres de tu texto
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
